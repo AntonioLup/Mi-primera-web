@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/2cccd3449f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="spa logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Web</title>
+</head>
+
+<body>
+    <!-----inicio----->
+
+    <div>
+        <h1>
+            <div class="img"></div>
+        </h1>
+    </div>
+
+    <!---------->
+
+    <div>
+        <div class="wrapper-sentence">
+            <h2 class="sentence"> 
+                <div class="slidingVertical">
+                    Tu Momento de...
+                    <span>Chill</span>
+                    <span>Confort</span>
+                    <span>Relax</span>
+
+
+
+                </div>
+            </h2>
+        </div>
+
+    </div>
+    <!-----tabs ----->
+    <div id="title" class="wrapper-tab">
+
+        <ul class="tab_navigation text-wrapper">
+            <li class="letters">Home</li>
+            <li class="letters">Servicios</li>
+            <li class="letters">Preguntas </li>
+            <li class="letters">Contacto</li>
+        </ul>
+    </div>
+    <!---------->
+    <!-----tabs container ----->
+    <div class="tab_container_area">
+        <div class="tab_container">
+
+            <div class="hero">
+
+                <div class="hero-p">
+                    <div class="liner">
+                        <span> Lorem ipsum dolor sit amet consectetur.</span>
+                        
+                        
+                    </div>
+                    
+                    <div class="hero-form">
+                        <form action="email">
+                            <label for="email">Newsletter</label>
+                            <input type="email" name="email" placeholder="@gmail...">
+                            <input type="submit">
+                        </form>
+                        <div class="lista">
+                            <ul>
+                                <li><i class="fas fa-adjust"></i>Lorem ipsum dolor sit. dolor sit sit.</li>
+                                <li><i class="far fa-address-book"></i>Lorem ipsum dolor sit. dolor sit sit.</li>
+                                <li><i class="fas fa-air-freshener"></i>Lorem ipsum dolor sit. dolor sit sit.</li>
+                                <li><i class="fas fa-align-justify"></i>Lorem ipsum dolor sit. dolor sit sit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="hero-img">
+                    <img src="Notifications_Monochromatic.png" alt="people">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="tab_container">
+            <div class="sevicios-wrapper gallery">
+                <div class="wrapper-container">
+                    <div class="row">
+                        <div class="gallery-filter">
+                            <span class="filter-item active" data-filter="all">Todo</span>
+                            <span class="filter-item" data-filter="masaje">Masaje</span>
+                            <span class="filter-item" data-filter="circuito">Circuito</span>
+                            <span class="filter-item" data-filter="tratamientos">Tratamientos</span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <!-------galeria start---------->
+                        <div class="gallery-item circuito">
+                            <div class="gallery-item-inner">
+                                <div class="overlay">Circuito 50$</div>
+                                <img src="./galeria/circuito.jpg" alt="circuito">
+                            </div>
+
+                        </div>
+                        <!-------galeria end---------->
+                        <!-------galeria start---------->
+                        <div class="gallery-item masaje">
+                            <div class="gallery-item-inner">
+                                <div class="overlay">Masaje 30$</div>
+                                <img src="./galeria/masaje.jpg" alt="masaje">
+                            </div>
+
+                        </div>
+                        <!-------galeria end---------->
+                        <!-------galeria start---------->
+                        <div class="gallery-item masaje">
+                            <div class="gallery-item-inner">
+                                <div class="overlay">Mensaje 20$</div>
+                                <img src="./galeria/masaje-2.jpg" alt="masaje">
+                            </div>
+
+                        </div>
+                        <!-------galeria end---------->
+                        <!-------galeria start---------->
+                        <div class="gallery-item tratamientos">
+                            <div class="gallery-item-inner">
+                                <div class="overlay">Tratamiento 150$</div>
+                                <img src="./galeria/tratamiento.jpg" alt="tratamientos">
+                            </div>
+
+                        </div>
+                        <!-------galeria end---------->
+                        <!-------galeria start---------->
+                        <div class="gallery-item tratamientos">
+                            <div class="gallery-item-inner">
+                                <div class="overlay">Tratamiento 10$</div>
+                                <img src="./galeria/tratamiento-2.jpg" alt="tratamientos">
+                            </div>
+
+                        </div>
+                        <!-------galeria end---------->
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab_container">
+            <!-------faqs start---------->
+            <div class="acc-toggle" data-collapse="">
+                <div class="acc-block">
+                    <div class="acc-no">(01)</div>
+                    <div class="acc-title">Lorem ipsum dolor sit.</div>
+                    <div class="acc-toggle-icon">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <ul class="ul">
+                <li class="li">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                </li>
+                <li class="li">Lorem Ipsum has been the industry's standard dummy text</li>
+                <li class="li">when an unknown printer took a galley of type and scrambled.</li>
+            </ul>
+            <!-------faqs ends--------->
+            <!-------faqs start---------->
+            <div class="acc-toggle" data-collapse="">
+                <div class="acc-block">
+                    <div class="acc-no">(02)</div>
+                    <div class="acc-title">Lorem ipsum dolor sit.</div>
+                    <div class="acc-toggle-icon">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <ul class="ul">
+                <li class="li">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                </li>
+                <li class="li">Lorem Ipsum has been the industry's standard dummy text</li>
+                <li class="li">when an unknown printer took a galley of type and scrambled.</li>
+            </ul>
+            <!-------faqs ends--------->
+            <!-------faqs start---------->
+            <div class="acc-toggle" data-collapse="">
+                <div class="acc-block">
+                    <div class="acc-no">(03)</div>
+                    <div class="acc-title">Lorem ipsum dolor sit.</div>
+                    <div class="acc-toggle-icon">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <ul class="ul">
+                <li class="li">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                </li>
+                <li class="li">Lorem Ipsum has been the industry's standard dummy text</li>
+                <li class="li">when an unknown printer took a galley of type and scrambled.</li>
+            </ul>
+            <!-------faqs ends--------->
+        </div>
+        <div class="tab_container">
+            <form id="form">
+                <div class="wrapper">
+                    <input type="text" placeholder="Nombre.."/>
+                    <div class="gradient-bg"></div>
+                </div>
+                <div class="wrapper">
+                    <input type="email" placeholder="Email " />
+                    <div class="gradient-bg"></div>
+                </div>
+                <div class="wrapper">
+                    <input type="text" placeholder="Asunto">
+                    <div class="gradient-bg"></div>
+                </div>
+                
+                <button>Enviar</button>
+            </form>
+        </div>
+            </div>
+             <!---------------- 
+
+      CONTACT PAGE LEFT 
+    
+      -----------------> 
+    
+      
+</div>
+
+
+    <!---------->
+
+
+    <!-----comentarios seccion ----->
+    <div class="wrapper-box">
+
+        <div class="container-box">
+            <h2>Deja tu comentario</h2>
+            <form>
+                <textarea method="POST" id="input" placeholder="Que pienso?"></textarea>
+                <div class="btn">
+                    <input type="submit" id="add-btn" value="Comentar">
+                    <button id="clear">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!---------->
+
+    <section>
+        <div class="wrapper-coments">
+            <h2>Tus Comentarios</h2>
+
+            <div class="box">
+
+            </div>
+            <button id="delete">Eliminar</button>
+
+
+        </div>
+    </section>
+
+
+    <!---------->
+
+    <!-----top up ----->
+    <span href="#" class="ir-arriba icon-arrow-up2"></span>
+
+
+    <!---------->
+
+    <footer>
+        <p>© AntonioLup</p>
+        <ul class="social-icons">
+            <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+            <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+            <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-----comentarios seccion ----->
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('#add-btn').click(function () {
+                var input = $('#input').val();
+                $('.box').append(input + '<br>');
+                $('#input').val('');
+                $('.wrapper-coments').slideDown();
+            });
+
+            $('.clear').click(function () {
+                $('#input').val('');
+            });
+
+            $('#delete').click(function () {
+                $('.box').text('');
+                $('.wrapper-coments').slideUp();
+
+            });
+
+
+        });
+    </script>
+    <!-----tabs ----->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.tab_container:first').show();
+            $('.tab_navigation li:first').addClass('active');
+
+            $('.tab_navigation li').click(function (event) {
+                index = $(this).index();
+                $('.tab_navigation li').removeClass('active');
+                $(this).addClass('active');
+                $('.tab_container').hide();
+                $('.tab_container').eq(index).show();
+
+            });
+
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+
+
+
+        TweenMax.staggerFrom(" .tab_navigation ", 2, {
+            delay: 0.7,
+            opacity: 0,
+            y: 20,
+            ease: Power3.easeInOut
+        }, 0.1);
+
+
+    </script>
+    <script type="text/javascript">
+
+
+
+
+        TweenMax.staggerFrom(" .lista li ", 2, {
+            delay: 0.7,
+            opacity: 0,
+            y: 20,
+            ease: Power3.easeInOut
+        }, 0.1);
+
+
+    </script>
+
+    <script type="text/javascript">
+        
+
+        TweenMax.staggerFrom(".liner span", 1.8, {
+            y: 200,
+            ease: "power4.out",
+            delay: 1,
+            skewY: 10,
+            stagger: {
+                amount: 0.4,
+            },
+        });
+
+       
+    </script>
+
+    <!-------faqs ends--------->
+    <script type="text/javascript">
+    let parent = document.querySelectorAll("[data-collapse");
+			parent.forEach((element) => {
+				let clickTarget = element.querySelector("*");
+				let collapseElement = element.nextElementSibling;
+				let collapseElementChildren = collapseElement.children;
+				let tl = new TimelineMax({
+					reversed: true,
+					paused: true,
+				});
+
+				tl.from(
+					collapseElement,
+					1.6,
+					{
+						className: "+=heightZero",
+						ease: Expo.easeInOut,
+					},
+					"open"
+				);
+				tl.staggerFrom(
+					collapseElementChildren,
+					1,
+					{
+						autoAlpha: 0,
+						y: "40%",
+						ease: Expo.easeInOut,
+					},
+					0.08,
+					"open+=.1"
+				);
+
+				clickTarget.addEventListener("click", () => {
+					tl.reversed() ? tl.play() : tl.reverse();
+				});
+			});
+
+    </script>
+
+    <script type="text/javascript" src="coment-box.js"></script>
+    <script src="gallery.js"></script>
+</body>
+
+</html>
